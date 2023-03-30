@@ -1,0 +1,102 @@
+/* General */
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+
+#logo {
+    text-align: center;
+}
+
+header{
+    background-color: #009900;
+    margin: 0 0 30px 0;
+    padding:5px 0 5px 0 ;
+}
+
+h1{
+    color: white;
+    font-family: 'Candal', sans-serif;
+    font-size: 2.1em;
+}
+
+h2{
+    color: white;   
+    font-family: 'Candal', sans-serif;
+    font-size: 1.5em;
+}
+
+
+nav{
+    background-color: #006600;
+    text-align: center;
+}
+
+nav a {
+    color: #ffffff;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    margin: 18px;
+    display: inline-block;
+}
+
+nav a:hover{
+    color: #003500;
+}
+
+nav a.selected {
+    color: #003500;
+}
+
+
+footer{
+    text-align: center;
+}
+
+footer p {
+    font-size: 0.85em;
+}
+
+
+/* Portfolio */
+#wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+
+/* About */
+.immagine-profilo{
+    display: block;
+    margin: 0 auto;
+    max-width: 200px;
+    border-radius: 100%;
+}
+
+
+/* Contact */
+#contact-info a{
+    color: #000000;
+    display: block;
+    background-repeat: no-repeat;
+    min-height: 20px;
+    background-size: 20px 20px;
+    padding-left: 30px
+}
+
+#contact-info{
+    list-style: none;
+}
+
+#contact-info .phone a{
+    background-image: url(../img/phone.png);
+}
+
+#contact-info .mail a{
+    background-image: url(../img/mail.png);
+}
